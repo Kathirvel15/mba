@@ -810,8 +810,8 @@ h1.mba-head-color-blue {
     }
 
     h1.mba-head-color-blue {
-        font-size: 20px;
-        line-height: 1.7rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
         text-align: center;
     }
 
@@ -1014,7 +1014,8 @@ h1.mba-head-color-blue {
     }
 
     .mba-fifth-para p {
-        font-size: 11px;
+        font-size: 12px;
+        padding: 0.8em 0px;
     }
 
     .mba-fifth-col1 h1 {
@@ -1124,7 +1125,7 @@ h1.mba-head-color-blue {
     background: linear-gradient(180deg,
             rgba(70, 64, 38, 0) 0%,
             #fcd8b8 129.28%);
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .gmat-profile-sec-2 .heading p {
