@@ -805,11 +805,11 @@ h1.mba-head-color-blue {
     }
 
     .mba-first-col-1 {
-        width: 65%;
+        width: 55%;
     }
 
     .mba-first-col-2 {
-        width: 35%;
+        width: 45%;
         display: flex;
         justify-content: unset;
         align-content: flex-end;
@@ -841,7 +841,7 @@ h1.mba-head-color-blue {
     }
 
     .mba-first-col-1 ol li {
-        font-size: 12px;
+        font-size: 3.3vw;
         margin-top: 10px;
         line-height: 2em;
     }
@@ -858,7 +858,7 @@ h1.mba-head-color-blue {
     }
 
     .mba-first-col-2-width .santhosh-mg {
-        width: 32vw;
+        width: 40vw;
     }
 
     .mba-first-col-2-width h1 {
