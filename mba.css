@@ -3,8 +3,13 @@ body {
     margin: 0px;
 }
 
+header {
+    width: 90%;
+    margin: auto;
+}
+
 .mba-first-backgrround {
-    background: url(../Assets/mba-background-banner.png);
+    background: url(Assets/mba-background-banner.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -22,7 +27,7 @@ body {
 
 .mba-career-lab-logo {
     width: 20vw;
-    margin-top: 2em;
+    margin-top: 0em;
     margin-bottom: -1em;
 }
 
@@ -123,7 +128,8 @@ h1.mba-head-color-blue {
     color: #3E3E4C;
 }
 
-.mobile-version-head-show {
+.mobile-version-head-show,
+.mobile-version-head-show-2 {
     display: none;
 }
 
@@ -395,6 +401,10 @@ h1.mba-head-color-blue {
     line-height: 3vw;
 }
 
+.mba-fourth strong {
+    font-weight: 600;
+}
+
 /* Carousel */
 #carousel,
 #carousels,
@@ -436,6 +446,10 @@ h1.mba-head-color-blue {
 }
 
 /* FIFTH section */
+.mba-fifth-width a {
+    text-decoration: none;
+}
+
 .mba-fifth {
     margin-top: 4rem;
 }
@@ -790,11 +804,11 @@ h1.mba-head-color-blue {
     }
 
     .mba-first-col-1 {
-        width: 70%;
+        width: 65%;
     }
 
     .mba-first-col-2 {
-        width: 30%;
+        width: 35%;
         display: flex;
         justify-content: unset;
         align-content: flex-end;
@@ -826,7 +840,7 @@ h1.mba-head-color-blue {
     }
 
     .mba-first-col-1 ol li {
-        font-size: 11px;
+        font-size: 12px;
         margin-top: 10px;
         line-height: 2em;
     }
@@ -843,7 +857,7 @@ h1.mba-head-color-blue {
     }
 
     .mba-first-col-2-width .santhosh-mg {
-        width: 29vw;
+        width: 32vw;
     }
 
     .mba-first-col-2-width h1 {
@@ -855,9 +869,7 @@ h1.mba-head-color-blue {
         margin: 0px;
     }
 
-    .mba-form form input::placeholder {
-        font-size: 16px;
-    }
+
 
     .mba-form form input {
         padding-left: 1rem;
@@ -870,7 +882,7 @@ h1.mba-head-color-blue {
     }
 
     .mba-form form button {
-        font-size: 13px;
+        font-size: 15px;
         padding: 1em 0em;
     }
 
@@ -1092,9 +1104,9 @@ h1.mba-head-color-blue {
         flex-direction: column;
     }
 
-    .mba-section-6-form form button,
-    .mba-section-1-col-2pad form button {
+    .mba-section-6-form form button {
         font-size: 15px;
+        padding: 1em 1.5em;
     }
 
     .mba-form-margin-top input {
@@ -1103,7 +1115,7 @@ h1.mba-head-color-blue {
         height: 50px !important;
     }
 
-    .mba-section-1-col-2pad form input::placeholder,
+
     .mba-form-margin-top input::placeholder {
         font-size: 14px !important;
     }
@@ -1187,6 +1199,10 @@ h1.mba-head-color-blue {
 }
 
 /* Section - 3 */
+.head-sub-headings h4 span {
+    font-weight: 600;
+}
+
 .gmat-profile-sec-3 {
     margin: 4rem 0 0;
     margin-right: 3rem;
@@ -1646,7 +1662,7 @@ h1.mba-head-color-blue {
     }
 
     .gmat-profile-sec-2 .heading p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         text-align: center !important;
     }
 
@@ -1710,7 +1726,8 @@ h1.mba-head-color-blue {
         margin-top: 1rem;
     }
 
-    .gmat-profile-sec-3 .sec-3-cols-2 {
+    .gmat-profile-sec-3 .sec-3-cols-2,
+    .mobile-version-head-show-2 {
         display: block;
     }
 
