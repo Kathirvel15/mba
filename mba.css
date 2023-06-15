@@ -465,7 +465,8 @@ h1.mba-head-color-blue {
 }
 
 .mba-fifth-col1 span img {
-    width: 6vw;
+    width: 7vw;
+    margin-bottom: -12px;
 }
 
 .mba-fifth-image {
@@ -1269,14 +1270,17 @@ h1.mba-head-color-blue {
 .gmat-profile-sec-3 .sec-3-cols-2 .content-arrow .cont-col p {
     font-family: "poppins";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.7vw;
-    line-height: 2.3rem;
     text-align: left;
     text-transform: capitalize;
     color: #ffffff;
     padding: 1rem 3.5rem;
     margin: 0px;
+}
+
+.cont-col p b {
+    font-weight: 600;
 }
 
 .gmat-profile-sec-3 .sec-3-cols-2 {
@@ -1320,9 +1324,8 @@ h1.mba-head-color-blue {
 
 .gmat-profile-sec-3 .sec-3-cols-2 .img-cont-col .cont-cols h5 {
     font-family: "poppins";
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.3rem;
+    font-weight: 500;
+    font-size: 1.2vw;
     text-align: center;
     text-transform: capitalize;
     color: #ffffff;
@@ -1569,8 +1572,6 @@ h1.mba-head-color-blue {
     }
 
     .gmat-profile-sec-3 .sec-3-cols-2 .img-cont-col .cont-cols h5 {
-        font-size: 0.8rem;
-        line-height: 1.3rem;
         padding: 1rem 0.5rem;
     }
 
@@ -1785,8 +1786,8 @@ h1.mba-head-color-blue {
     }
 
     .gmat-profile-sec-3 .sec-3-cols-2 .img-cont-col .cont-cols h5 {
-        font-size: 0.5rem;
-        line-height: 1rem;
+        font-size: 2.5vw;
+        line-height: 4vw;
         padding: 0.5rem;
     }
 
